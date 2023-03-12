@@ -29,8 +29,8 @@ jobs:
           # file: Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/fastpi_nyc:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/fastpi_nyc:${{ steps.commit.outputs.short }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/fast_nyc:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/fast_nyc:${{ steps.commit.outputs.short }}
             ${{ secrets.DOCKERHUB_USERNAME }}/streamlit_nyc:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/streamlit_nyc:${{ steps.commit.outputs.short }}
           # Change the container image "demo_fastapi_private"
