@@ -25,10 +25,10 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: ./FastAPI    # path to dockerfile
+          context: ./streamlit    # path to dockerfile
           # file: Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/fast_nyc:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/fast_nyc:${{ steps.commit.outputs.short }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/streamlit_nyc:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/streamlit_nyc:${{ steps.commit.outputs.short }}
           # Change the container image "demo_fastapi_private"
