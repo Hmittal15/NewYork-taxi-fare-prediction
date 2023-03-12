@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# user-defined
+train_dp.csv
+train_FE.csv
+env_nyc
