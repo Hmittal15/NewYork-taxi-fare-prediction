@@ -29,8 +29,6 @@ jobs:
           # file: Dockerfile
           push: true
           tags: |
-            mittal15/fast_nyc:latest
-            mittal15/fast_nyc:${{ steps.commit.outputs.short }}
-            mittal15/streamlit_nyc:latest
-            mittal15/streamlit_nyc:${{ steps.commit.outputs.short }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/fast_nyc:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/fast_nyc:${{ steps.commit.outputs.short }}
           # Change the container image "demo_fastapi_private"
