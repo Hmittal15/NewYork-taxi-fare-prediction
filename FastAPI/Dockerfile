@@ -7,7 +7,7 @@ RUN pip install --upgrade pip
 WORKDIR /app
 # Change the working dir inside the container - cd /app
 
-ADD main.py requirements.txt xgb_model.pkl /app/
+ADD main.py requirements.txt xgb_model.pkl weather_findings.csv /app/
 
 RUN pip install -r requirements.txt
 # Install the dependency

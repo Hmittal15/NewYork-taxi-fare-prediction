@@ -4,7 +4,7 @@ import requests
 import datetime
 
 def main():
-    BASE_URL = "http://localhost:8090"
+    BASE_URL = "http://fastapi:8090"
     st.set_page_config(page_title="NYC Taxi Fare", page_icon="🚕")
     st.title("Taxi Fare Prediction")
     st.header('Welcome to New York Taxi service!')

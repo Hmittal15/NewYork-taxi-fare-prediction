@@ -29,6 +29,6 @@ jobs:
           # file: Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/streamlit_nyc:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/streamlit_nyc:v2
             ${{ secrets.DOCKERHUB_USERNAME }}/streamlit_nyc:${{ steps.commit.outputs.short }}
           # Change the container image "demo_fastapi_private"
