@@ -133,3 +133,7 @@ train_dp.csv
 train_FE.csv
 env_nyc
 .github
+ce
+ce.pub
+GCP_vm_ssh_pub
+GCP_vm_ssh.ppk
