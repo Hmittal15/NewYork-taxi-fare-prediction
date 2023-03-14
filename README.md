@@ -112,7 +112,7 @@ Careful and precise analysis was performed over all the aspects of these models.
 ![Demo](https://user-images.githubusercontent.com/108916132/225139532-0003b6aa-475c-4f26-82bc-7f903a15e96e.gif)
 
 ### Link to full explanatory video:-
-[![Video thumbnail](https://user-images.githubusercontent.com/108916132/225133491-0c709a03-1600-47d2-963b-9a29d85e3304.png)](https://github.com/Hmittal15/NewYork-taxi-fare-prediction/raw/main/NYC_Taxi_Fare_Prediction.mp4 "Download or view the video")
+[![Video thumbnail](https://user-images.githubusercontent.com/108916132/225150975-f2af18ef-d88f-4e24-8108-e16c963792b6.png)](https://github.com/Hmittal15/NewYork-taxi-fare-prediction/raw/main/NYC_Taxi_Fare_Prediction.mp4 "Download or view the video")
 
 ### Future Work:-
 1.	We can leverage Google maps API and use JavaScript to make the frontend web application more interactive.
